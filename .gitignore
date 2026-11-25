@@ -1,0 +1,9 @@
+# Editor backups y sistemas operativos
+*~
+.DS_Store
+.vscode/
+.idea/
+
+# Entornos virtuales o dependencias locales si aplican después
+node_modules/
+venv/
