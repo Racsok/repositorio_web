@@ -1,0 +1,15 @@
+// @ts-check
+import { defineConfig } from 'astro/config';
+
+// astro.config.mjs
+import { defineConfig } from 'astro/config';
+
+export default defineConfig({
+  i18n: {
+    defaultLocale: 'es',
+    locales: ['es', 'en'],
+    routing: {
+      prefixDefaultLocale: false, // La raíz '/' será español, y '/en/' será inglés
+    },
+  },
+});

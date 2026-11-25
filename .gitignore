@@ -1,9 +1,28 @@
-# Editor backups y sistemas operativos
-*~
-.DS_Store
-.vscode/
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# jetbrains setting folder
 .idea/
 
-# Entornos virtuales o dependencias locales si aplican después
-node_modules/
-venv/
+# Variables de entorno
+.env
+.env.production
+.env.*
+!.env.example
+
+# Editor y sistema operativo
+.vscode/
+.DS_Store
+
