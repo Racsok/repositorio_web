@@ -1,6 +1,3 @@
-// @ts-check
-import { defineConfig } from 'astro/config';
-
 // astro.config.mjs
 import { defineConfig } from 'astro/config';
 
