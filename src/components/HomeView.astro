@@ -25,6 +25,15 @@ const projects = allProjects.sort((a, b) => a.data.order - b.data.order);
       <a href="https://github.com/tu-usuario" target="_blank" class="btn secondary">GitHub</a>
     </div>
   </section>
+  
+  <section id="sobre-mi" class="section">
+    <h3>{t['nav.about']}</h3>
+    <p class="about-text">
+      {lang === 'es'
+        ? 'Estudiante de último semestre de Ingeniería de Sistemas enfocado en Ingeniería de Datos, desarrollo Backend y automatización en entornos Linux.'
+        : 'Final-semester Systems Engineering student focused on Data Engineering, Backend development, and automation in Linux environments.'}
+    </p>
+  </section>
 
   <section id="proyectos" class="section">
     <h3>{t['nav.projects']}</h3>
@@ -48,13 +57,18 @@ const projects = allProjects.sort((a, b) => a.data.order - b.data.order);
     </div>
   </section>
 
-  <section id="sobre-mi" class="section">
-    <h3>{t['nav.about']}</h3>
+  <section id="contacto" class="section">
+    <h3>{t['nav.contact']}</h3>
     <p class="about-text">
       {lang === 'es'
-        ? 'Estudiante de último semestre de Ingeniería de Sistemas enfocado en Ingeniería de Datos, desarrollo Backend y automatización en entornos Linux.'
-        : 'Final-semester Systems Engineering student focused on Data Engineering, Backend development, and automation in Linux environments.'}
+        ? '¿Buscas un perfil para ingeniería de datos o desarrollo backend? Contáctame directamente:'
+        : 'Looking for a Data Engineering or Backend profile? Reach out directly:'}
     </p>
+    <div class="hero-actions" style="margin-top: 1rem;">
+      <a href="mailto:oscarmcg02@gmail.com" class="btn secondary">Email</a>
+      <a href="https://linkedin.com/in/oscargacha/" target="_blank" class="btn secondary">LinkedIn</a>
+      <a href="https://github.com/Racsok" target="_blank" class="btn secondary">GitHub</a>
+    </div>
   </section>
 </Layout>
 
